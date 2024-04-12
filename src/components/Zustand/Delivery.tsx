@@ -12,8 +12,6 @@ export const Delivery = () => {
   );
   const configContext = useContext(ConfigContext);
 
-  console.log({ deliveryCost });
-
   return (
     <div className="container">
       {configContext?.enableRenderCount && (
