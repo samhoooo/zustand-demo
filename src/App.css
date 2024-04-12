@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.container {
+  padding: 20px;
+  border: 5px white solid;
+  margin: 8px 0;
+  position: relative;
+}
+
+.count {
+  margin: 0 12px;
+}
+
+.product-image img{
+  width: 200px;
+  margin-bottom: 12px;
+  border-radius: 4%;
+}
+
+.product-description {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.delivery-message {
+  font-weight: bold;
+}
+
+.price {
+  display: flex;
+  justify-content:space-between;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  margin: 8px 12px;
+}
+
+.container.checkout {
+  min-width: 420px;
+}
+
+.checkout-price {
+  margin-top: 24px;
+}
+
+.delivery-description {
+  font-size: 12px;
+}
+
+.render-count {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-weight: bold;
+  color: red;
+}
