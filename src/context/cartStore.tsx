@@ -26,7 +26,7 @@ export const useCartStore = create<CountState>((set) => ({
         payTotal,
       };
     }),
-  deliveryCost: 0,
+  deliveryCost: DEFAULT_DELIVERY_COST,
   subTotal: 0,
   payTotal: 0,
 }));
